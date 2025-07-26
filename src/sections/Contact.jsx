@@ -30,16 +30,15 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_dzf0g2o",
+        "template_hi6d9f5",
         {
           from_name: formData.name,
-          to_name: "Ali",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
           message: formData.message,
+          email: "suyash2004.ahire@gmail.com"
         },
-        "pn-Bw_mS1_QQdofuV"
+        "RYUl3yYkNmsZ7YrrG"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
@@ -47,7 +46,7 @@ const Contact = () => {
     } catch (error) {
       setIsLoading(false);
       console.log(error);
-      showAlertMessage("danger", "Somthing went wrong!");
+      showAlertMessage("danger", "Something went wrong!");
     }
   };
   return (
@@ -64,8 +63,7 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            Need a secure app, workflow automation, or a modern tech solution? Let’s build something great together!
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
@@ -78,7 +76,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="Suyash Ahire"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -94,7 +92,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="suyash2004.ahire@gmail.com"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}
