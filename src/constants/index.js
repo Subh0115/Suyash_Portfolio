@@ -19,7 +19,7 @@ export const myProjects = [
       { id: 2, name: "Vite", path: "/assets/logos/vitejs.svg" },
       { id: 3, name: "Tailwind CSS", path: "/assets/logos/tailwindcss.svg" },
       { id: 4, name: "React.js", path: "/assets/logos/react.svg" },
-      { id: 5, name: "Shadcn", path: "" }
+      { id: 5, name: "Shadcn", path: "/assets/logos/shadcn.svg" }
     ]
   },
   {
