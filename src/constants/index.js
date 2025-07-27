@@ -2,7 +2,7 @@ export const myProjects = [
   {
     id: 0,
     title: "BtrackiFiS",
-    description: "A comprehensive banking web application featuring an integrated personal finance tracker. Users can manage accounts, track expenses, set budgets, and visualize financial data with interactive dashboards. Includes secure authentication, real-time transaction updates, and a modern, responsive UI.",
+    description: "A comprehensive banking web application featuring an integrated personal finance tracker.",
     subDescription: [
       "Smart Banking, Smarter Tracking!",
       "Developed a full-stack solution using Node.js, React.js, and Vite for seamless performance.",
@@ -10,8 +10,7 @@ export const myProjects = [
       "Designed a modern, mobile-friendly interface with Tailwind CSS and Shadcn UI components.",
       "Integrated secure authentication and real-time data updates for a robust user experience.",
       "Skills: Node.js · Vite · Tailwind CSS · React.js · Shadcn",
-      "Jan 2025 - Present"
-    ],
+    
     href: "",
     logo: "",
     image: "/assets/projects/btrackifis.jpg", // Update this path when image is provided
