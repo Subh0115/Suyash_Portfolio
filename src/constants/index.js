@@ -10,7 +10,7 @@ export const myProjects = [
       "Designed a modern, mobile-friendly interface with Tailwind CSS and Shadcn UI components.",
       "Integrated secure authentication and real-time data updates for a robust user experience.",
       "Skills: Node.js · Vite · Tailwind CSS · React.js · Shadcn",
-    
+    ],
     href: "",
     logo: "",
     image: "/assets/projects/btrackifis.jpg", // Update this path when image is provided
