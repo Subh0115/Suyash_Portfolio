@@ -59,15 +59,15 @@ const Contact = () => {
         refresh
       />
       {showAlert && <Alert type={alertType} text={alertMessage} />}
-      <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
-        <div className="flex flex-col items-start w-full gap-5 mb-10">
+      <div className="flex flex-col items-center justify-center max-w-md p-3 sm:p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
+        <div className="flex flex-col items-start w-full gap-5 mb-8 sm:mb-10">
           <h2 className="text-heading">Let's Talk</h2>
-          <p className="font-normal text-neutral-400">
+          <p className="font-normal text-neutral-400 text-base sm:text-lg">
             Need a secure app, workflow automation, or a modern tech solution? Let’s build something great together!
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
-          <div className="mb-5">
+          <div className="mb-4 sm:mb-5">
             <label htmlFor="name" className="feild-label">
               Full Name
             </label>
@@ -83,7 +83,7 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="mb-5">
+          <div className="mb-4 sm:mb-5">
             <label htmlFor="email" className="feild-label">
               Email
             </label>
@@ -99,7 +99,7 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="mb-5">
+          <div className="mb-4 sm:mb-5">
             <label htmlFor="message" className="feild-label">
               Message
             </label>
@@ -118,7 +118,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-lavender to-royal hover-animation"
+            className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-lavender to-royal hover-animation min-h-[44px]"
           >
             {!isLoading ? "Send" : "Sending..."}
           </button>

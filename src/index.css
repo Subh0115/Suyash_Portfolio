@@ -136,3 +136,41 @@ body {
 .field-input-focus {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
 }
+
+@media (max-width: 640px) {
+  .nav-li {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.125rem;
+  }
+  .nav-link {
+    font-size: 1.125rem;
+    min-height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    min-height: 44px;
+    min-width: 44px;
+  }
+  .section-spacing {
+    margin-top: 4rem;
+    min-height: 80vh;
+  }
+  .text-heading {
+    font-size: 2rem;
+  }
+  .headtext {
+    font-size: 1.125rem;
+  }
+  .subtext {
+    font-size: 0.95rem;
+  }
+}

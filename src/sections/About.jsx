@@ -14,7 +14,7 @@ const About = () => {
         <div className="flex items-end grid-default-color grid-1">
           <img
             src="assets/coding-pov.png"
-            className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
+            className="absolute right-0 top-0 scale-125 md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5] max-w-[60vw] max-h-[10rem] md:max-w-none md:max-h-none"
           />
           <div className="z-10">
             <p className="headtext">Hii , I'm Suyash</p>
@@ -77,13 +77,13 @@ const About = () => {
         </div>
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
-          <div className="z-10 w-[50%]">
+          <div className="z-10 w-full md:w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
               I'm based in Kalyan, Maharashtra, India, and open to remote work worldwide
             </p>
           </div>
-          <figure className="absolute left-[30%] top-[10%]">
+          <figure className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:left-[30%] md:top-[10%] md:translate-x-0 md:translate-y-0">
             <Globe />
           </figure>
         </div>
@@ -98,14 +98,14 @@ const About = () => {
         </div>
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
-          <div className="z-10 w-[50%]">
+          <div className="z-10 w-full md:w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
               I specialize in a variety of languages, frameworks, and tools taht
               allow me to build robust and scalable applications
             </p>
           </div>
-          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
+          <div className="absolute inset-y-0 w-full h-full start-1/2 md:inset-y-9 md:scale-125">
             <Frameworks />
           </div>
         </div>
