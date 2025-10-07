@@ -47,6 +47,16 @@
     }
   }
 }
+
+/* Global text glow on hover for common text elements */
+@media (hover: hover) {
+  :is(h1,h2,h3,h4,h5,h6,p,span,a,li,strong,em,b,i,small,label,button,dt,dd,th,td,figcaption) {
+    transition: text-shadow 120ms ease;
+  }
+  :is(h1,h2,h3,h4,h5,h6,p,span,a,li,strong,em,b,i,small,label,button,dt,dd,th,td,figcaption):hover {
+    text-shadow: 0 0 1px currentColor, 0 0 2px currentColor;
+  }
+}
 body {
   background: #030412;
   font-family: "Funnel Display", sans-serif;
