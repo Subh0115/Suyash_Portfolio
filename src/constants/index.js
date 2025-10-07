@@ -340,11 +340,12 @@ export const experiences = [
   },
   {
     title: "Project Intern",
-    job: "Mazagon Dock Ltd",
-    date: "Jun 2025 - Present",
+    job: "Mazagon Dock Shipbuilders Limited",
+    date: "Jun 2025 - Aug 2025",
     contents: [
-      "Worked on networking and real company projects, gaining hands-on experience in a live environment.",
-      "Applied skills in statistical data analysis, networking, and Linux kernel to support project goals."
+      "Contributed to AI/ML initiatives, including submarine damage detection using YOLO for hull anomaly identification.",
+      "Built data collection and labeling pipelines; experimented with model training and inference workflows.",
+      "Collaborated with engineering teams to integrate computer vision prototypes into existing processes."
     ],
     location: "Mumbai, Maharashtra, India · On-site"
   },
