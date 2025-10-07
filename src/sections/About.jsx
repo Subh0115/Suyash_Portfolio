@@ -19,7 +19,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hii , I'm Suyash</p>
             <p className="subtext">
-              BSc IT graduate specializing in Artificial Intelligence and Generative AI applications. Skilled in Python, Streamlit, REST APIs, and cloud deployment. Developed the AI-Powered Road Damage Detection System using YOLOv8 for automated visual inspection of highways, and the NHAI Highway Information Chatbot powered by LLM API (Gemini API) to deliver real-time answers on tolls, FASTag, and national highway data. Strong foundation in web and cloud technologies, including React.js, AWS, and database management. Eager to contribute to AI model development, data processing, and prototype deployment.
+              BSc IT graduate specializing in Artificial Intelligence and Generative AI applications. Skilled in Python, Streamlit, REST APIs, and cloud deployment.Strong foundation in web and cloud technologies, including React.js, AWS, and database management. Eager to contribute to AI model development, data processing, and prototype deployment.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
