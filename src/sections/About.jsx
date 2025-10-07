@@ -19,7 +19,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hii , I'm Suyash</p>
             <p className="subtext">
-              I’m Suyash Ahire, a BSc IT student at Smt. CHM College and a Junior Software & Cloud Developer passionate about cloud-native apps and DevOps. I’ve interned with iFuture Technologies and Learnet Pvt Ltd, building skills in AWS Development, Cloud Computing, and AI.
+              BSc IT graduate specializing in Artificial Intelligence and Generative AI applications. Skilled in Python, Streamlit, REST APIs, and cloud deployment. Developed the AI-Powered Road Damage Detection System using YOLOv8 for automated visual inspection of highways, and the NHAI Highway Information Chatbot powered by LLM API (Gemini API) to deliver real-time answers on tolls, FASTag, and national highway data. Strong foundation in web and cloud technologies, including React.js, AWS, and database management. Eager to contribute to AI model development, data processing, and prototype deployment.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -101,7 +101,7 @@ const About = () => {
           <div className="z-10 w-full md:w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
+              I specialize in a variety of languages, frameworks, and tools that
               allow me to build robust and scalable applications
             </p>
           </div>

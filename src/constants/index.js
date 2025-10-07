@@ -244,6 +244,46 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 7,
+    title: "AI-Based Road Damage Detection (YOLOv8 + Streamlit)",
+    description:
+      "Real-time road damage and pothole detection web app using YOLOv8 and Streamlit.",
+    subDescription: [
+      "Analyzes images/video streams to identify potholes; supports webcam and file uploads.",
+      "Streamlit UI with downloadable outputs and deployment-ready workflow.",
+      "Designed for highway maintenance use cases with options for GPS tagging and reporting.",
+    ],
+    href: "https://github.com/Subh0115/AI-Based-Road-Damage-Pothole-Detection-System-YOLOv8-Streamlit-",
+    logo: "",
+    image: "/assets/projects/road-damage.jpg",
+    tags: [
+      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
+      { id: 2, name: "YOLOv8", path: "/assets/logos/yolov8.svg" },
+      { id: 3, name: "Streamlit", path: "/assets/logos/streamlit.svg" },
+      { id: 4, name: "Computer Vision", path: "/assets/logos/azure.svg" },
+    ],
+  },
+  {
+    id: 8,
+    title: "The AI Chatbot (Gemini + Next.js)",
+    description:
+      "Production-ready chatbot UI with streaming responses, dark theme, and sidebar—powered by Gemini API.",
+    subDescription: [
+      "Hybrid architecture combining API-based LLM intelligence with context-augmented responses.",
+      "Built with Next.js App Router, TypeScript, Tailwind, and @assistant-ui components.",
+      "Deployable on Vercel; set GOOGLE_GENERATIVE_AI_API_KEY to start chatting.",
+    ],
+    href: "https://github.com/Subh0115/The_AI_Chatbot",
+    logo: "",
+    image: "/assets/projects/ai-chatbot.jpg",
+    tags: [
+      { id: 1, name: "Gemini", path: "/assets/logos/gemini.svg" },
+      { id: 2, name: "Next.js", path: "/assets/logos/nextjs.svg" },
+      { id: 3, name: "TypeScript", path: "/assets/logos/typescript.svg" },
+      { id: 4, name: "Tailwind", path: "/assets/logos/tailwindcss.svg" },
+    ],
+  },
 ];
 
 export const mySocials = [
